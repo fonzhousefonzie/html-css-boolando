@@ -1,0 +1,4 @@
+.favourite:hover{
+    color: red;
+    text-shadow: 0 0 0.4rem rgb(255, 68, 39);
+}
