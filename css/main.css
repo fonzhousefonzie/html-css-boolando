@@ -17,6 +17,7 @@ a{
 .container{
     max-width: 960px;
     margin: auto;
+    display: flex;
 }
 
 header{
@@ -52,7 +53,6 @@ header{
 }
 
 .shop{
-    display: flex;
     flex-wrap: wrap;
     padding: 3rem 0;
 }
@@ -120,4 +120,33 @@ header{
 .sustainable{
     background-color: green;
     padding: 0.3rem 0.8rem;
+}
+
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 2rem;
+}
+
+.foot{
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.foot ul{
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.foot li{
+    padding-right: 0.5rem;
+}
+
+.social a{
+    padding-right: 0.2rem;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
